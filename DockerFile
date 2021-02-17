@@ -1,5 +1,5 @@
-FROM python:2
-ADD helloworld.py /
+FROM python:latest
+ADD PythonProgram.py /
 RUN pip install flask
 RUN pip install flask_restful
 EXPOSE 3333
