@@ -7,3 +7,5 @@ python:
 script: 
 
   - python PythonProgram.py
+notifications:
+  email: Priyalguptaniec123@gmail.com
