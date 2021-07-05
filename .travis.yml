@@ -13,8 +13,6 @@ services:
   - docker
 before_install:
   - docker build -t kirtigup123/img1 .
-  - docker run -d -p 127.0.0.1:80:4567 kirtigupta123/img1 /bin/sh -c "cd /root/img1; bundle exec foreman start;"
-  - docker ps -a
-  - docker run kirtigupta123/img1 /bin/sh -c "cd /root/img1; bundle exec rake test"
+  - docker run kirtigupta123/img1
 script:
   - bundle exec rake test
