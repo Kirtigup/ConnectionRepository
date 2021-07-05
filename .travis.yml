@@ -17,3 +17,4 @@ after_success:
   - echo "Priyal@123" | docker login -u "kirtigupta123" --password-stdin
   - docker push kirtigupta123/img2
   - docker pull kirtigupta123/img2
+  - docker run -it --name mycontainer img2 /bin/bash
