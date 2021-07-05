@@ -14,3 +14,4 @@ services:
 before_install:
   - docker build -t kirtigup123/img1 .
   - docker images
+  - docker push kirtigup123/img1
