@@ -12,7 +12,7 @@ notifications:
 services:
   - docker
 after_success:
-  - docker build -t kirtigupta123/img1 .
+  - docker build -t kirtigupta123/img2 .
   - docker images
   - echo "Priyal@123" | docker login -u "kirtigupta123" --password-stdin
-  - docker push kirtigupta123/img1
+  - docker push kirtigupta123/img2
