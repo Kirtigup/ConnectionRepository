@@ -25,4 +25,4 @@ deploy:
     password: "Priyal@123"
     deployment: "python-app-helloworld/python-app-helloworld"
   - provider: heroku
-    api_key: "7d3577f4-4234-4248-9790-3a4f9423f56f"
+    api_key: 7d3577f4-4234-4248-9790-3a4f9423f56f
