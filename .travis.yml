@@ -18,6 +18,6 @@ before_install:
   - docker run -it --name mycontainer1 kirtigupta123/img2 
   - docker push kirtigupta123/img2
   - docker pull kirtigupta123/img2
-  - docker run -it --name mycontainer2 kirtigupta123/img2  
+  - docker run -it --name mycontainer2 kirtigupta123/img2   
 
  
